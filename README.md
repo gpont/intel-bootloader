@@ -1,15 +1,35 @@
-# Intel bootloader
+# Intel bootloader ![Version](https://img.shields.io/badge/version-1.0.0-lightgrey.svg)
 
 Written just for fun in the unknown year minimal Intel x86 bootloader.
 
-1. Compiling (with gcc, ld, nasm)
+## Usage
+
+### Requirements
+
+* GCC
+* LD
+* NASM
+* QEMU (for running)
+
+### Compiling
 
 ```bash
 make
 ```
 
-2. Running (in qemu)
+### Running (in qemu)
 
 ```bash
 make run
 ```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](./LICENSE)
+
